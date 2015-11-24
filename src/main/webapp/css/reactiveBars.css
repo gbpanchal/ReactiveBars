@@ -1,0 +1,62 @@
+/**
+ * This is a css file for index.jsp page.
+ * This file will help to apply styling to various control on index.js file.
+ */
+
+.progress {
+	width: 50%;
+	border: 1px solid black;
+	position: relative;
+	padding: 3px;
+}
+
+.percent {
+	position: absolute;
+	left: 50%;
+}
+
+.bar {
+	height: 20px;
+}
+
+/* button styles */
+.button {
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold; margin : 4px 2px;
+	cursor: pointer;
+	border-radius: 50%;
+	margin: 4px 2px;
+}
+
+/* select style */
+select {
+	outline: 0;
+	overflow: hidden;
+	height: 30px;
+	background: lightgreen;
+	color: black;
+	border: green;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 10px;
+	font-size: 16px;
+	font-family: "Arial";
+}
+
+select option {
+	border: 1px solid green;
+	background: lightgreen;
+}
+
+/* Text styles */
+div {
+	font-family: "Arial";
+	font-size: 18px;
+	font-weight: normal;
+}
